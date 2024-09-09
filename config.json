@@ -1,0 +1,9 @@
+{
+  "devices": [
+    {
+      "deviceId": "<DEVICE-ID>",
+      "connectionString": "<CONNECTION-STRING>",
+      "deviceType": "SENSOR"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "iiot-device-simulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "priyanthabuddhika",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.5",
+    "azure-iot-device": "^1.18.3",
+    "azure-iot-device-mqtt": "^1.16.3",
+    "fs": "^0.0.1-security",
+    "iiot-device-simulator": "file:",
+    "inquirer": "^10.1.8"
+  }
+}
