@@ -12,7 +12,7 @@ export function run(device) {
     const date = new Date();
     const data = JSON.stringify({
       "timestamp": date,
-      "deviceId": "device01",
+      "deviceId": device.deviceId,
       "data": JSON.stringify({
         "power": Number.parseFloat((Math.random() * (100 - 75 + 1)) + 75).toFixed(2),
         "voltage": Number.parseFloat((Math.random() * (40 - 30 + 1)) + 30).toFixed(2),
